@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuis Cerdas Islamic</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🕌 Kuis Cerdas Islamic</h1>
+
+    <div id="quiz-box">
+      <h2 id="question"></h2>
+      <div id="answers"></div>
+    </div>
+
+    <div id="result" class="hidden">
+      <h2>Skor Kamu: <span id="final-score"></span></h2>
+      <input type="text" id="username" placeholder="Masukkan Nama Kamu">
+      <button onclick="submitScore()">Simpan Amal</button>
+    </div>
+
+    <hr>
+
+    <h2>🏆 Fastabiqul Khairat</h2>
+    <ul id="leaderboard"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
